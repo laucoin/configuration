@@ -1,0 +1,10 @@
+--ignore-dir=.git
+--ignore-dir=.vscode
+--ignore-dir=.idea
+--ignore-dir=node-modules
+--ignore-file=is:.zsh_history
+--ignore-file=is:.viminfo
+--color
+--follow
+--group
+--sort-files

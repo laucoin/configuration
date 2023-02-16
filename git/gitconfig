@@ -1,0 +1,24 @@
+# This is Git's per-user configuration file.
+[user]
+    name = Luc AUCOIN
+    email = luc.aucoin1998@gmail.com
+[core]
+    editor = vim
+    excludesfile = ~/Documents/Git/Perso/configuration/git/gitignore
+[push]
+    default = current
+[init]
+    defaultBranch = develop
+    templatedir = ~/Documents/Git/Perso/configuration/git/git-templates
+[alias]
+    st = status -s
+    ci = commit
+    br = branch
+    co = checkout
+    cob = checkout -b
+    df = diff
+    del = branch -D
+    rb = reset --hard
+    history = log -p
+    tree = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    save = !git add -A && git commit -m ${1} && git push

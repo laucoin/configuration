@@ -1,4 +1,4 @@
-# GIT Resources
+# Configuration
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
@@ -6,52 +6,25 @@
 
 ## This repository
 
-This repository is a helpful tool, created to quickly set up your local `git`.
+This repository is a helpful tool, created to quickly setting up your local environment.
+
+This is a temporary repository, it will be replace by [Ansible ASAP](https://blog.laurentcharignon.com/post/laptop-setup-with-ansible/)
 
 ## How to install and use it ?
-### Prerequisites
-
-Install git:
-- Linux (Debian/Ubuntu)
-	```bash
-	sudo apt install git
-	```
-- Linux (CentOS)
-	```bash
-	sudo yum install git
-	```
-- MacOS
-	if need install [Homebrew](https://brew.sh/)
-	```bash
-	brew install git
-	```
-
-### Setup
 
 1. Clone this repository with the following command:
-	```bash
-	git clone git@github.com:laucoin/git-resources.git ~/git-resources
-	```
-	OR
-	```bash
-	git clone https://github.com/laucoin/git-resources.git ~/git-resources
-	```
-2. Create symbolic link of .gitconfig into your home
-	```bash
-	ln -s ~/git-resources/gitconfig ~/.gitconfig
-	```
-	If the previous command failed, maybe is due to an existing `~/.gitconfig`, If you don't have any existing config, you can force with `-f`:
-	```bash
-	ln -f -s ~/git-resources/gitconfig ~/.gitconfig
-	```
-3. Make hook executable
-	```bash
-	chmod +x ~/git-resources/git-templates/hooks/*
-	```
-
-## Help
-
-If you want to understand this repository, you can check [git documentation](https://git-scm.com/doc).
+    ```bash
+    git clone git@github.com:laucoin/configuration.git ~/Documents/Git/Perso/configuration
+    ```
+    OR
+    ```bash
+    git clone https://github.com/laucoin/configuration.git ~/Documents/Git/Perso/configuration
+    ```
+2. Follow instructions for the installation of your needs:
+    - (Git)[git/INSTALL.md]
+    - (Vim)[vim/INSTALL.md]
+    - (ACK)[ack/INSTALL.md]
+    - (ZSH)[zsh/INSTALL.md]
 
 ## Contributing
 
