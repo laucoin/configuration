@@ -21,10 +21,10 @@ This is a temporary repository, it will be replace by [Ansible ASAP](https://blo
     git clone https://github.com/laucoin/configuration.git ~/Documents/Git/Perso/configuration
     ```
 2. Follow instructions for the installation of your needs:
-    - (Git)[git/INSTALL.md]
-    - (Vim)[vim/INSTALL.md]
-    - (ACK)[ack/INSTALL.md]
-    - (ZSH)[zsh/INSTALL.md]
+    - [Git](git/INSTALL.md)
+    - [Vim](vim/INSTALL.md)
+    - [ACK](ack/INSTALL.md)
+    - [ZSH](zsh/INSTALL.md)
 
 ## Contributing
 
